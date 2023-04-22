@@ -23,7 +23,7 @@ const Layout = ({ title, children }) => {
             </div>
           </nav>
         </header>
-        <main className="container m-auto ml-4 mt-4">{children}</main>
+        <main className="container m-auto mt-4">{children}</main>
         <footer className="flex justify-center items-center h-12 shadow-inner border-t border-green-800">
           Copyright Hossanastore Worldwide 2023
         </footer>
