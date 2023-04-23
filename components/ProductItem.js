@@ -28,7 +28,7 @@ export const ProductItem = () => {
       <div
         className={`${
           !loading
-            ? "grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4"
+            ? "grid grid-cols-1 md:gap-4 lg:gap-16 md:grid-cols-3 lg:grid-cols-4"
             : "text-3xl font-semibold flex justify-center items-center"
         }`}
       >

@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 .card {
-  @apply mb-5 block rounded-lg border border-gray-200;
+  @apply mb-2 block rounded-lg max-sm:mt-2 md:shadow-lg shadow border border-gray-200 hover:shadow-none hover:border-primary_color transition-all duration-700;
 }
 
 .primary-button {
-  @apply outline-none rounded bg-amber-300 transition-all duration-500 shadow-md px-4 hover:bg-green-600 hover:text-white;
+  @apply outline-none rounded hover:bg-amber-300 rounded-br-lg rounded-tl-lg transition-all duration-500 shadow-md px-4 bg-primary_color text-white;
+}
+
+.nav-link {
+  @apply transition-all hidden md:block duration-500 hover:translate-y-0.5 hover:text-secondary_color;
+}
+
+.cart {
+  @apply hover:bg-secondary_color hidden md:block bg-primary_color duration-700 transition-all text-white px-4 py-1 rounded font-medium;
 }

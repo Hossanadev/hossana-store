@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
           <img
             src={product.thumbnail}
             alt={product.name}
-            className="rounded shadow object-cover h-64 w-full"
+            className="shadow-md duration-700 transition-all object-cover rounded h-56 w-[95%] mx-auto mt-[2.5%]"
           />
         </Link>
         <div className="flex flex-col items-center justify-center p-5">
