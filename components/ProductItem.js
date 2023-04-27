@@ -8,7 +8,7 @@ export const ProductItem = () => {
   const getData = async () => {
     setLoading(true);
     try {
-      let rawData = await fetch("https://dummyjson.com/products");
+      let rawData = await fetch("https://dummyjson.com/products/");
       let processedData = await rawData.json();
       {
         processedData ? setLoading(false) : setLoading(true);
