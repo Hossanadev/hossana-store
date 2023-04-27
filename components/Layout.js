@@ -21,7 +21,7 @@ const Layout = ({ title, children }) => {
       {/* header */}
       <div className="overflow-x-hidden flex flex-col justify-between min-h-screen">
         <header className="fixed w-full z-30 top-0">
-          <nav className="shadow-md w-screen border-primary_color z-30 bg-white flex justify-between items-center h-16 md:px-8 px-2">
+          <nav className="shadow-md w-screen border-primary_color z-30 bg-white flex justify-between items-center h-12 md:h-16 md:px-8 px-2">
             <Link
               className="hover:translate-x-4 transition-all duration-700"
               href={"/"}
