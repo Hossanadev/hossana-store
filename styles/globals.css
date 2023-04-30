@@ -19,5 +19,5 @@
 }
 
 .sidebar {
-  @apply min-h-screen w-[70%] md:w-[18%] bg-white duration-700 ease-in-out transition-all top-0 z-10 fixed left-0 border-r shadow-2xl rounded-r;
+  @apply min-h-screen w-[70%] md:w-[28%] bg-white duration-700 ease-in-out transition-all top-0 z-10 fixed left-0 border-r shadow-2xl rounded-r;
 }
