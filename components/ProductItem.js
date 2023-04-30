@@ -43,3 +43,5 @@ export const ProductItem = () => {
     </>
   );
 };
+
+export default async () => processedData;
